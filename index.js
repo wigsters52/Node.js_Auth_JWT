@@ -20,6 +20,6 @@ app.use(express.json())
 
 // Route Middlewares
 
-app.use('/api/user/', authRoute)
+app.use('/api/user', authRoute)
 
-app.listen(5000, () => console.log('Server up and running'))
+app.listen(3000, () => console.log('Server up and running'))
